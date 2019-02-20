@@ -1,0 +1,35 @@
+{
+	"name": "swtc-nativescript",
+	"version": "0.9.1",
+	"description": "make swtc lib nativescript ready",
+	"main": "src/index.js",
+	"browser": "src/index.web.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "mocha \"test/test*.js\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/swtcca/swtc-nativescript.git"
+	},
+	"keywords": [
+		"swtc",
+		"jingtum",
+		"nativescript"
+	],
+	"author": "Lospring Liu <lospringliu@gmail.com>",
+	"license": "BSD-2-Clause",
+	"bugs": {
+		"url": "https://github.com/swtcca/swtc-nativescript/issues"
+	},
+	"homepage": "https://github.com/swtcca/swtc-nativescript#readme",
+	"dependencies": {
+		"swtc-nativescript-brorand": "^1.1.1"
+	},
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^5.2.0"
+	}
+}
