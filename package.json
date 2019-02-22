@@ -1,6 +1,6 @@
 {
 	"name": "swtc-nativescript",
-	"version": "0.9.1",
+	"version": "0.9.2",
 	"description": "make swtc lib nativescript ready",
 	"main": "src/index.js",
 	"browser": "src/index.web.js",
@@ -26,6 +26,7 @@
 	},
 	"homepage": "https://github.com/swtcca/swtc-nativescript#readme",
 	"dependencies": {
+		"nativescript-websockets": "^1.5.3",
 		"swtc-nativescript-brorand": "^1.1.1"
 	},
 	"devDependencies": {
