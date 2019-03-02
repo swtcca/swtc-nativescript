@@ -1,11 +1,11 @@
 {
 	"name": "swtc-nativescript",
-	"version": "0.9.2",
-	"description": "make swtc lib nativescript ready",
-	"main": "src/index.js",
-	"browser": "src/index.web.js",
+	"version": "0.9.4",
+	"description": "make swtc lib nativescript easy",
+	"main": "index.js",
 	"directories": {
-		"test": "test"
+		"test": "test",
+		"src": "src"
 	},
 	"scripts": {
 		"test": "mocha \"test/test*.js\""
