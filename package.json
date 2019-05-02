@@ -1,6 +1,6 @@
 {
 	"name": "swtc-nativescript",
-	"version": "0.9.4",
+	"version": "0.9.6",
 	"description": "make swtc lib nativescript easy",
 	"main": "index.js",
 	"directories": {
